@@ -12,36 +12,42 @@
 
   <header id="header">
     <nav id="nav-bar">
-      <a class="nav-link">Description</a>
-      <a class="nav-link">Features</a>
-      <a class="nav-link">Demonstration</a>
+      <a class="nav-link" href="#Description">Description</a>
+      <a class="nav-link" href="#Features">Features</a>
+      <a class="nav-link" href="#Demonstration">Demonstration</a>
     </nav>
-    <img id="header-img" src="http://www.logologo.com/logos/print-logo.jpg">
+    <img id="header-img" src="../img/company.png">
     <h1>Product name</h1>
+    <hr>
   </header>
 
   <main>
-
     <form id="form">
       <h2>Stay notified of new updates</h2>
       <input id="name"
              type="text"
-             placeholder="Please enter your name"
+             placeholder="Enter your name"
              required>
       <br>
       <input id="email"
              type="email"
-             placeholder="Please enter your email address"
+             placeholder="Enter your email address"
              required>
       <br>
       <button id="submit">Subscribe!</button>
     </form>
 
-    <article class="flex-box">
-      <img class="flex-item image"
-           src="https://www.marketingtechblog.com/wp-content/uploads/2010/06/example-logo.png"
-           alt="Placeholder Image">
-      <div class="flex-item">
+    <hr class="separation">
+
+    <article id="Description" class="flex-box">
+      <div class="flex-item empty"></div>
+      <div class="image">
+        <img class="image"
+             src="../img/lorem.png"
+             alt="Placeholder Image">
+      </div>
+      <div class="flex-item empty"></div>
+      <div class="flex-item para">
         <h2>Description</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -50,13 +56,21 @@
           dolor in reprehenderit in voluptate velit esse cillum dolore eu
           fugiat nulla pariatur.</p>
       </div>
+      <div class="flex-item empty"></div>
+      <div class="flex-item empty"></div>
     </article>
 
-    <article class="flex-box">
-      <img class="flex-item image"
-        	 src="https://www.marketingtechblog.com/wp-content/uploads/2010/06/example-logo.png"
-           alt="Placeholder Image">
-      <div class="flex-item">
+    <hr class="separation">
+
+    <article id="Features" class="flex-box">
+      <div class="flex-item empty"></div>
+      <div class="image">
+        <img class="image"
+             src="../img/lorem.png"
+             alt="Placeholder Image">
+      </div>
+      <div class="flex-item empty"></div>
+      <div class="flex-item para">
         <h2>Features</h2>
         <ul>
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -70,13 +84,22 @@
           </li>
         </ul>
       </div>
+      <div class="flex-item empty"></div>
+      <div class="flex-item empty"></div>
     </article>
 
-    <video>
+    <hr class="separation">
+
+    <section id="Demonstration">
       <h2>Demonstration</h2>
-      <iframe id="video" src="" controls=0>
-      </iframe>
-    </video>
+      <div class="video-wrapper">
+        <iframe id="video"
+                src="https://www.youtube.com/embed/ScMzIvxBSi4"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+        </iframe>
+      </div>
+    </section>
 
   </main>
 
