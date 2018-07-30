@@ -16,7 +16,9 @@
       <a class="nav-link" href="#Features">Features</a>
       <a class="nav-link" href="#Demonstration">Demonstration</a>
     </nav>
-    <img id="header-img" src="../img/company.png">
+    <img id="header-img"
+         src="../img/company.png"
+         alt="Company Logo">
     <h1>Product name</h1>
     <hr>
   </header>
@@ -25,16 +27,18 @@
     <form id="form">
       <h2>Stay notified of new updates</h2>
       <input id="name"
+             name="name"
              type="text"
              placeholder="Enter your name"
              required>
       <br>
       <input id="email"
+             name="email"
              type="email"
              placeholder="Enter your email address"
              required>
       <br>
-      <button id="submit">Subscribe!</button>
+      <input type="submit" id="submit" value="Subscribe!">
     </form>
 
     <hr class="separation">
