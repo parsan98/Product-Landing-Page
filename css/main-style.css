@@ -36,7 +36,8 @@ body {
 }
 
 h1 {
-
+  padding: 0px;
+  margin: 0px 0px 20px 20px;
 }
 
 main {
@@ -46,11 +47,15 @@ main {
 #form {
   border: solid;
   padding: 5px 10px 15px 10px;
-  margin: 5px auto 15px auto;
+  margin: 15px auto 25px auto;
   max-width: 700px;
 }
 
-h2 {}
+h2 {
+  padding: 0px;
+  margin: 20px 0px 15px 0px;
+  text-align: center;
+}
 
 input {
   margin: 5px 0px 10px 0px;
@@ -58,16 +63,19 @@ input {
   width: 95%;
 }
 
-#submit {}
+#submit {
+  padding: 5px;
+}
 
-.separation {}
+.separation {
+  margin-top: 25px;
+}
 
 .flex-box {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: cyan;
-  padding: 20px;
+  padding: 50px 20px 50px 20px;
 }
 
 .flex-item {
@@ -90,7 +98,7 @@ input {
 }
 
 #Demonstration {
-  padding: 10px;
+  padding: 20px 10px 0px 10px;
 }
 
 .video-wrapper {
@@ -98,6 +106,8 @@ input {
   background-color: red;
   padding-right: 100%;
   padding-top: 56.25%;
+  height: 0px;
+  width: 0px;
 }
 
 #video {
@@ -111,4 +121,29 @@ input {
 footer {
   text-align: center;
   padding: 20px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .para{
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .video-wrapper {
+    padding: 0px;
+    height: 349px;
+    width: 560px;
+    margin: 25px auto 20px auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    padding-top: 290px;
+  }
+  #header-img {
+    float: right;
+    padding-right: 10px;
+  }
 }
