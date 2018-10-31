@@ -5,7 +5,7 @@ This is a webpage consisting of a sample product landing page.
 * This repository consists of a HTML file and the linked CSS stylesheet in separate folders.
 * It also contains the images used in the page.
 * Download the repository and unzip the contents.
-* Open `\html\landing.html` in your browser.
+* Open `docs\html\landing.html` in your browser.
 
 ## Features
 * Responsive design
